@@ -75,5 +75,8 @@ module.exports = {
     filename: '[name]' + filenamePostfix + '.js',
     libraryTarget: 'umd',
     library: '[name]'
+  },
+  optimization: {
+    minimize: false
   }
 };
